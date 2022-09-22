@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+    <title>Word Counter using Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Word Counter</h1>
+        <textarea name="message" class="message" id="message" cols="50" rows="5" placeholder="Enter a message"
+            oninput="updateCount()"></textarea>
+
+        <p>
+            <span id="word-count">0</span> words |
+            <span id="character-count">0</span> characters
+        </p>
+    </div>
+</body>
+
+</html>
